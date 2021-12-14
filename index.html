@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTM Űrlap</title>
+</head>
+<body>
+        <fieldset>
+            <legend>Legördülő lista minta</legend>
+            <select name="lista" id="lista" size="6">
+                <option value="januar">Január hónap</option>
+                <option value="februar">Február hónap</option>
+                <option value="marcius">Március hónap</option>
+                <option value="aprilis">Április hónap</option>
+                <option value="május">Május hónap</option>
+                <option value="junius">Június hónap</option>
+            <option value="julius">Július hónap</option>
+            <option value="augusztus">Augusztus hónap</option>
+            <option value="szeptember">Szeptember hónap</option>
+            <option value="oktober">Október hónap</option>
+            <option value="november">November hónap</option>
+            <option value="December" selected>December hónap</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Csúszka/Gördítősáv minta</legend>
+                <label for="vol">RED:</label>
+                <input type="range" min="0" max="255" value="50" class="slider" id="myRange">
+                <br>
+                <label for="vol">GREEN:</label>
+                <input type="range" min="0" max="255" value="50" class="slider" id="myRange">
+                <br>
+                <label for="vol">BLUE:</label>
+                <input type="range" min="0" max="255" value="50" class="slider" id="myRange">
+        </fieldset>
+        <fieldset>
+            <legend>Rádiónyomógomb</legend>
+            <input type="radio" id="pink" name="fav_language" value="PINK">
+            <label for="html">HotPink</label>
+            <input type="radio" id="rod" name="fav_language" value="ROD" sele>
+            <label for="html">GoldenRod</label>
+            <input type="radio" id="olive" name="fav_language" value="OLIVE">
+            <label for="html">Olive</label>
+        </fieldset>
+        <button>Elküldés</button>
+</body>
+</html>
